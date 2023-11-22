@@ -8,6 +8,18 @@ $(document).ready(function(){
         },
     });
 
+    // 햄버거
+    $('.hamburger').click(function(){
+        $('.hamburger-menu').addClass('active');
+    });
+    $('.hamburger-menu .x-btn').click(function(){
+        $('.hamburger-menu').removeClass('active');
+    });
+
+    $('.h-menu-head').click(function(){
+        $(this).siblings('.h-sub-menu').slideToggle();
+    });
+
     // // 스크롤
     var ww = $(window).width();
     // if(ww > 1124){
@@ -47,7 +59,7 @@ $(document).ready(function(){
     // }else{
         
     // }
-    
+
     // footer sub-menu-box
     $('.f-menu-head').click(function(){
         // $(this).siblings('.f-sub-menu').toggleClass('active');

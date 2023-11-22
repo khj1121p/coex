@@ -605,6 +605,7 @@ footer .info p{
     }
     .h-menu-box .h-menu .h-menu-head{
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
     .h-menu-box .h-menu p{

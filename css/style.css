@@ -957,6 +957,7 @@ footer .info p{
         font-size: 13px;
         width: 100px;
         height: 36px;
+        line-height: 36px;
     }
     .sec-3 .left .btn:first-child{
         margin-right: 20px;

@@ -666,8 +666,8 @@ footer .info p{
         height: 60px;
     }
     .sec-2 .icon svg{
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
     }
 
     .sec-3 .container{
@@ -898,6 +898,10 @@ footer .info p{
     }
     .sec-2 .sns-icon .icon:nth-child(3n){
         margin-right: 0;
+    }
+    .sec-2 .icon svg{
+        width: 23px;
+        height: 23px;
     }
 
     .sec-3 .right{

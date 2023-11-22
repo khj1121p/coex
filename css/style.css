@@ -1008,4 +1008,13 @@ footer .info p{
     .sec-4 .line-3 .text{
         padding: 32px;
     }
+
+    .f-menu-box .f-menu .f-menu-head{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .f-menu-box .f-menu .f-sub-menu{
+        font-size: 14px;
+        padding: 12px 0;
+    }
 }

@@ -1,5 +1,6 @@
 @charset "utf-8";
 .hamburger,
+.hamburger-menu,
 .g-report-img,
 .av-drop-img,
 .f-menu-box .f-menu .f-menu-head span{
@@ -503,9 +504,15 @@ footer .info p{
     .header-area-2 .lang{
         display: none;
     }
+    .header-area-2{
+        height: 100px;
+    }
     .header-area-2 .logo{
         width: 115px;
         height: 65px;
+    }
+    .header-area-2 .icon-box{
+        margin-right: 0;
     }
     .header-area-2 .icon-box .icon{
         width: 32px;
@@ -538,6 +545,91 @@ footer .info p{
     }
     .hamburger span:nth-child(3){
         top: 100%;
+    }
+
+    .hamburger-menu{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        background-color: #fff;
+        z-index: 999;
+
+        transition: 0.5s;
+    }
+    .hamburger-menu.active{
+        left: 0;
+    }
+    .hamburger-menu .hamburger-header-area{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hamburger-menu .logo{
+        width: 114px;
+        height: 65px;
+    }
+    .hamburger-menu .x-btn{
+        display: block;
+        width: 28px;
+        height: 22px;
+        position: relative;
+    }
+    .hamburger-menu .x-btn span{
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        background-color: #F030A1;
+        border-radius: 12px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: rotate(45deg);
+    }
+    .hamburger-menu .x-btn span:first-child{
+        transform: rotate(-45deg);
+    }
+
+    .h-menu-box{
+        display: block;
+        width: 160px;
+        margin: 0 auto;
+        padding-top: 58px;
+    }
+    .h-menu-box .h-menu{
+        margin-bottom: 40px;
+    }
+    .h-menu-box .h-menu .h-menu-head{
+        display: flex;
+        align-items: center;
+    }
+    .h-menu-box .h-menu p{
+        font-size: 20px;
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
+    .h-menu-box .h-menu .h-menu-head span{
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        transform: rotate(180deg);
+    }
+    .h-menu-box .h-menu .h-menu-head span svg{
+        stroke: #313131;
+    }
+    .h-menu-box .h-menu .h-sub-menu{
+        /* padding: 12px 28px; */
+        display: none;
+    }
+    .h-menu-box .h-menu .h-sub-menu li{
+        margin-top: 12px;
+    }
+    .h-menu-box .h-menu .h-sub-menu li:last-child{
+        margin-bottom: 0;
     }
 
     /* sec-1 */

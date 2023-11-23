@@ -527,6 +527,7 @@ footer .info p{
         margin-right: 0;
         position: relative;
     }
+
     .hamburger span{
         display: inline-block;
         width: 100%;
@@ -562,6 +563,7 @@ footer .info p{
     .hamburger-menu.active{
         left: 0;
     }
+
     .hamburger-menu .hamburger-header-area{
         width: 100%;
         height: 100px;
@@ -631,6 +633,20 @@ footer .info p{
     }
     .h-menu-box .h-menu .h-sub-menu li:last-child{
         margin-bottom: 0;
+    }
+
+    .h-menu-bottom{
+        position: absolute;
+        bottom: 36px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-wrap: wrap;
+        color: #767676;
+    }
+    .h-menu-bottom li{
+        width: 33%;
+        cursor: pointer;
     }
 
     /* sec-1 */
@@ -791,12 +807,16 @@ footer .info p{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        pointer-events: none;
     }
     header .bannerSwiper{
         display: none;
     }
     .header-area-2 .icon-box{
         margin-right: 0;
+    }
+    .h-menu-bottom{
+        font-size: 12px;
     }
 
     .sec-1 .left, .sec-1 .right{
@@ -1021,7 +1041,7 @@ footer .info p{
         font-size: 14px;
         padding: 12px 0;
     }
-        footer .connect{
+    footer .connect{
         font-size: 14px;
     }
     footer .info{

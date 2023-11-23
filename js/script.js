@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
 
     $('.h-menu-head').click(function(){
-        $(this).siblings('.h-sub-menu').slideDown();
+        $(this).siblings('.h-sub-menu').slideToggle();
         $(this).parents().siblings().children('.h-sub-menu').slideUp();
     });
 

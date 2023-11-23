@@ -639,6 +639,7 @@ footer .info p{
         position: absolute;
         bottom: 36px;
         left: 50%;
+        width: 642px;
         transform: translateX(-50%);
         display: flex;
         flex-wrap: wrap;
@@ -816,6 +817,7 @@ footer .info p{
         margin-right: 0;
     }
     .h-menu-bottom{
+        width: 327px;
         font-size: 12px;
     }
 

@@ -816,6 +816,12 @@ footer .info p{
     .header-area-2 .icon-box{
         margin-right: 0;
     }
+    .h-menu-box .h-menu{
+        margin-bottom: 28px;
+    }
+    .h-menu-box{
+        padding-top: 12px;
+    }
     .h-menu-bottom{
         width: 327px;
         font-size: 12px;
